@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarey Travel & Tours</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #0044cc;
+            color: white;
+            padding: 20px;
+        }
+        nav {
+            background-color: #02287e;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px;
+        }
+        .destinos img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #02287e;
+            color: white;
+            padding: 10px;
+        }
+        .social a {
+            margin: 10px;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+        form input, form textarea {
+            width: 80%;
+            max-width: 400px;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        form button {
+            padding: 10px 20px;
+            background-color: #0044cc;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sarey Travel & Tours</h1>
+        <p>Tu agencia de viajes de confianza</p>
+    </header>
+    <nav>
+        <a href="#sobre">Sobre Nosotros</a>
+        <a href="#destinos">Destinos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <section id="sobre">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos una agencia apasionada por hacer realidad tus sueños de viaje.</p>
+    </section>
+    <section id="destinos" class="destinos">
+        <h2>Destinos Populares</h2>
+        <img src="https://source.unsplash.com/600x400/?beach" alt="Playa">
+        <p>Explora destinos exóticos con nosotros.</p>
+    </section>
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+        <form>
+            <input type="text" placeholder="Nombre" required><br>
+            <input type="email" placeholder="Correo Electrónico" required><br>
+            <textarea placeholder="Mensaje" required></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p>Síguenos en redes sociales</p>
+        <div class="social">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+        </div>
+        <p>&copy; 2025 Sarey Travel & Tours</p>
+    </footer>
+</body>
+</html>
